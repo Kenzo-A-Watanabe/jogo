@@ -1,5 +1,7 @@
 #pragma once
 #include<iostream>
+#include <SFML/Graphics.hpp>
+
 class Ente
 {
 protected:
@@ -7,7 +9,6 @@ protected:
 public:
 	Ente();
 	~Ente();
-	virtual void exe() = 0;
 	void print();
 };
 
