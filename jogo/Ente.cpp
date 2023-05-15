@@ -1,7 +1,7 @@
 #include "Ente.h"
 Ente::Ente()
 {
-    id = 0;
+    id = 092;
 }
 Ente::~Ente()
 {
